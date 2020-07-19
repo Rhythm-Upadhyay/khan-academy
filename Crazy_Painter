@@ -1,0 +1,11 @@
+strokeWeight(4);
+var draw = function() {
+    stroke(mouseY, mouseX, mouseX);
+    fill(33, mouseY, mouseX);
+    rect(mouseX, mouseY, mouseX/2, mouseY/2);
+};
+
+fill(255, mouseY, mouseX);
+var mousePressed = function() {
+    ellipse(mouseX, mouseY, mouseX, mouseY);
+};
